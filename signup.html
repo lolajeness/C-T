@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Signup Sheet</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <a href="index.html" class="nav-link"><li>Main Page</li></a>
+        </ul>
+      </nav>
+      <h1>Sign up here!</h1>
+    </header>
+    <p>What is your name and email?</p>
+	<label for="fname">First Name</label>
+	<input type="text" id="fname" name="fname"> <br> <br>
+	<label for="lname">Last name:</label>
+  	<input type="text" id="lname" name="lname"><br><br>
+	<label for="cname">Child's full name:</label>
+	<input type="text" id="cname" name="cname"> <br> <br> 
+    <label for="email">email:</label>
+	<input type="email" id="email" /> <br> <br>
+    <input type="submit" value="Submit" onclick="msg()"></input>
+<script>
+	function msg() {
+		alert("thank you for signing up!");
+	}
+	</script>
+  </body>
+</html>

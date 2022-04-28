@@ -1,0 +1,24 @@
+body {
+  background-color: #3948a3;
+  color: #f2d746;
+}
+p {
+  font-size: 30px;
+  font: bolder;
+  outline: 3px;
+  outline-color: #a47081;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+  text-decoration: underline;
+  font: bold;
+  outline: 3px;
+  outline-color: #a47081;
+}
+a {
+  color: #8b55be;
+}
+iframe {
+  border-color: #a47081;
+}
