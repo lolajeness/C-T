@@ -1,6 +1,17 @@
 body {
   background-color: #3948a3;
+  animation: fade-in 1s ease-in 0.5s forwards;
+
+  position: relative;
+  top: 200px;
+  opacity: 0;
   color: #f2d746;
+}
+@keyframes fade-in {
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 p {
   font-size: 30px;
@@ -12,7 +23,7 @@ h1 {
   font-size: 40px;
   text-align: center;
   text-decoration: underline;
-  font: bold;
+  font: bolder;
   outline: 3px;
   outline-color: #a47081;
 }
