@@ -1,15 +1,26 @@
 body {
-  background-color: #3948a3;
+  background-color: #fefaec;
   animation: fade-in 1s ease-in 0.5s forwards;
 
   position: relative;
-  top: 200px;
   opacity: 0;
-  color: #f2d746;
+  color: #222c61;
+
+  margin: 2% 5%;
 }
 @keyframes fade-in {
   to {
     top: 0;
+    opacity: 1;
+  }
+}
+@keyframes fade-in {
+  from {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  to {
+    tramsform: translateY(0);
     opacity: 1;
   }
 }
@@ -26,6 +37,20 @@ h1 {
   font: bolder;
   outline: 3px;
   outline-color: #a47081;
+  animation: swivel 1s ease-in-out 0.3s forwards;
+  -o-animation: swivel 1s ease-in-out 0.3s forwards;
+  -moz-animation: swivel 1s ease-in-out 0.3s forwards;
+  -webkit-animation: swivel 1s ease-in-out 0.3s forwards;
+}
+
+@keyframes swivel {
+  from {
+    transform: rotateY(90deg);
+  }
+  to {
+    transform: rotateY(0deg);
+    visibility: visible;
+  }
 }
 a {
   color: #8b55be;
